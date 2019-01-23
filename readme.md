@@ -4,7 +4,7 @@ Example of building a portal like micro-frontends for multiple react SPA's. Each
 
 1, Clone this project
 
-2, - `npm install serve -g`
+2, `npm install serve -g`
 
 3, Go to each app folder and do:
 
