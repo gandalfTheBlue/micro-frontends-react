@@ -12,10 +12,10 @@ const NavBar = () => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="#">
+          <NavItem eventKey={1} href="/#/app1/">
             React app 1
           </NavItem>
-          <NavItem eventKey={2} href="#">
+          <NavItem eventKey={2} href="/#/app2/">
             React app 2
           </NavItem>
         </Nav>
