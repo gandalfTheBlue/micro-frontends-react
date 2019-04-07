@@ -67,7 +67,7 @@ Example of building a portal like micro-frontends for multiple react SPA's. Each
     library: 'reactApp'
 ```
 
-3, config react route entry file singleSpaEntry.js, change the id to sub project base id ('app1' or 'app2'):
+3, config react route entry file singleSpaEntry.js, replace 'changeIt' to sub project base id ('app1' or 'app2'):
 
 ```
     import singleSpaReact from 'single-spa-react';
@@ -144,4 +144,4 @@ Please refer to: https://github.com/me-12/single-spa-portal-example/blob/master/
 
 1, All applications including the root should use hash history
 
-2, If navigate between sub applications, please use global window object
+2, If navigate between sub applications, please refer to this link: https://single-spa.js.org/docs/api.html#navigatetourl
